@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('floatbar.css');
+@import url('bannermenu.css');
+@import url('personboxes.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 30px;
+    background: black;
+    color: rgb(195,39,47);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.content {
+    width: 98%;
+    margin: auto;
+}
+
+header h3 {
+    float: left;
+    cursor: pointer;
+}
+
+header h3:hover, header a:hover{
+    color: white;
+    transition: all .2s;
+}
+
+header a {
+    float: right;
+    font-size: 20px;
+    color: rgb(195,39,47);
+    text-decoration: none;
+}
+
+header .content {
+    display: table;
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    background: black;
+}
+
+footer .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.copy {
+    font-size: 12px;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.copy:hover {
+    color: rgb(195,39,47);
+    transition: all .2s;
+}

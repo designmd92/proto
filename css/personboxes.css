@@ -1,0 +1,30 @@
+#person-boxes {
+    width: 100%;
+    background: black;
+    color: rgb(195,39,47);
+    text-align: center;
+}
+
+#person-boxes .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boxes {
+    margin: 30px;
+    width: 180px;
+    height: 180px;
+    clip-path: circle(50% at 50% 50%);
+    background: white;
+}
+
+.boxes img {
+    width: 180px;
+    height: 180px;
+}
+
+.boxes img:hover {
+    transform: scale(1.2);
+    transition: all .5s;
+}
